@@ -6,7 +6,7 @@ $(document).ready(function(){
         $(this).toggleClass("open");
     });
     $(".mobile-menu-icon").click(function () {
-        $('.ev-header-nav ul').slideToggle();
+        $('.lv-header-nav-menu ul').slideToggle();
     });
 
 });

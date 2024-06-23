@@ -352,7 +352,41 @@ p {
 
 /*==========>>>>> End Memberships Page Css  <<<<<==========*/
 
+/*==========>>>>> Start FAQ Page Css  <<<<<==========*/
+.lv-faq-area {
+  background-color: #FFFFFF;
+  padding: 100px 0;
+}
 
+.single-lv-faq-items {
+  margin-bottom: 40px;
+}
+
+.lv-faq-content .single-lv-faq-items:last-child {
+  margin-bottom: 0;
+}
+
+.single-lv-faq-items h3 {
+  width: 95%;
+  font-size: 35px;
+  color: #000A1F;
+  display: flex;
+  align-items: flex-start;
+}
+.single-lv-faq-items h3 i {
+  font-size: 23px;
+  margin-right: 20px;
+  margin-top: 8px;
+}
+.single-lv-faq-items p {
+  width: 92%;
+  padding-left: 38px;
+}
+
+
+
+
+/*==========>>>>> End FAQ Page Css  <<<<<==========*/
 
 /*===== Start LV Footer Area Css  =====*/
 .lv-footer-area {

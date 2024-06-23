@@ -154,7 +154,7 @@
         position: absolute;
         left: 0;
         width: 100%;
-        background: #7FB3D5;
+        background: rgba(0,0,0,.9);
         padding: 20px 0;
         top: 165px;
         display: none;

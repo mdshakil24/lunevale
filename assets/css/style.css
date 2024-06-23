@@ -252,12 +252,107 @@ p {
 
 /*===== Start LV Play Game Area Css  =====*/
 .lv-play-game-area {
-  background: url('../images/book-table.png');
+  background: url('../images/play-game.png');
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 /*===== End LV Play Game Area Css  =====*/
+
+
+/*==========>>>>> Start Memberships Page Css  <<<<<==========*/
+
+.lv-memberships-area {
+  background: url('../images/memberships.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 100px 0;
+}
+
+.lv-memberships-content {
+  position: relative;
+  padding-bottom: 15px;
+}
+
+.lv-memberships-content::before {
+  content: '';
+  position: absolute;
+  background: #FFFFFF;
+  width: 90%;
+  height: 1px;
+  top: 180px;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.lv-memberships-content::after {
+  content: '';
+  position: absolute;
+  background: #FFFFFF;
+  width: 90%;
+  height: 1px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.single-lv-memberships-heading {
+  text-align: center;
+  padding-bottom: 75px;
+}
+
+.single-lv-memberships-heading img {
+  height: 64px;
+  width: auto;
+}
+
+.single-lv-memberships-heading h3 {
+  font-size: 34px;
+  margin-top: 8px;
+}
+.single-lv-memberships-heading p {
+  font-weight: 500;
+  font-size: 20px;
+  color: #FFFFFF;
+}
+
+.single-lv-memberships-text {
+  margin-bottom: 20px;
+}
+
+.single-lv-memberships-text p, .single-lv-memberships-text h5, .single-lv-memberships-text h6 {
+  font-size: 20px;
+  color: #FFFFFF;
+  max-width: 220px;
+  text-align: center;
+  margin: 0 auto;
+  line-height: 1.4;
+}
+
+.single-lv-memberships-text h5 {
+  font-weight: 700;
+}
+.single-lv-memberships-text h6 {
+  font-weight: 500;
+}
+.lv-memberships-bottom-text {
+  padding-top: 40px;
+}
+.lv-memberships-bottom-text p {
+  font-size: 18px;
+  color: #FFFFFF;
+  text-align: center;
+  max-width: 90%;
+  margin: 0 auto;
+  margin-top: 15px;
+}
+
+/*==========>>>>> End Memberships Page Css  <<<<<==========*/
+
+
 
 /*===== Start LV Footer Area Css  =====*/
 .lv-footer-area {

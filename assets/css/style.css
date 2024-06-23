@@ -1,0 +1,323 @@
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: 'Winsel Condensed';
+  font-family: 'Lato';
+}
+
+html {
+  overflow-x: hidden !important;
+  scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+input,
+button,
+textarea,
+select {
+  outline: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a,
+span {
+  display: inline-block;
+  text-decoration: none;
+}
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+h1 {
+  font-family: 'Winsel Condensed';
+  font-weight: 900;
+  font-size: 60px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  line-height: 1.4;
+}
+
+h2 {
+  font-family: 'Winsel Condensed';
+  font-weight: 900;
+  font-size: 46px;
+  color: #000A1F;
+  text-transform: uppercase;
+  line-height: 1.4;
+}
+
+h3 {
+  font-family: 'Winsel Condensed';
+  font-weight: 900;
+  font-size: 38px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  line-height: 1.4;
+}
+
+p {
+  font-weight: 300;
+  font-size: 24px;
+  color: #000000;
+  text-transform: inherit;
+  line-height: 1.28;
+}
+
+.similar-btn a {
+  background-color: #7FB3D5;
+  font-family: 'Winsel Condensed';
+  font-weight: 900;
+  font-size: 30px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  padding: 20px 80px 14px 80px;
+  border-radius: 15px;
+  line-height: 1;
+  box-shadow: 0px 4px 9px #00000029;
+  transition: .2s;
+}
+
+.similar-btn a:hover {
+  background-color: #2275ab;
+}
+
+.section-padding {
+  padding: 85px 0;
+}
+
+/*===== Start LV Header Area Css  =====*/
+.lv-header-area {
+  background: url('../images/hero.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  padding: 60px 0;
+}
+
+.lv-header-area.home {
+  padding-bottom: 125px;
+}
+
+.lv-header-logo-nav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 55px;
+}
+
+.lv-header-logo img,.lv-footer-logo img {
+  width: 220px;
+  height: auto;
+}
+
+.lv-header-nav-menu ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.lv-header-nav-menu ul li a,.single-lv-footer-link ul li a {
+  font-weight: 300;
+  font-size: 20px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  margin-left: 40px;
+  padding-bottom: 10px;
+  display: inline-block;
+  transition: .1s;
+}
+
+
+.lv-header-nav-menu ul li a:hover,.lv-header-nav-menu ul li a.active {
+  font-weight: 700;
+  border-bottom: 2px solid #FFFFFF;
+}
+
+.lv-hero-content p {
+  color: #FFFFFF;
+}
+
+.lv-hero-left-content p {
+  margin-top: 55px;
+  margin-bottom: 140px;
+  width: 85%;
+}
+
+
+.lv-hero-left-content img {
+  width: 92%;
+  height: auto;
+}
+
+.lv-hero-right-content {
+  margin-top: 200px;
+}
+
+
+.lv-hero-right-content a {
+  margin-top: 25px;
+  margin-bottom: 130px;
+}
+
+.lv-hero-right-content h2 {
+  color: #FFFFFF;
+  width: 75%;
+  margin: 0 auto;
+}
+
+/*===== End LV Header Area Css  =====*/
+
+/*===== Start LV Become Member Area Css  =====*/
+.lv-become-member-area {
+  background-color: #FFFFFF;
+}
+.lv-become-member-content .row {
+  align-items: center;
+}
+.lv-become-member-left-content p {
+  width: 90%;
+  margin-top: 35px;
+  margin-bottom: 55px;
+}
+.lv-become-member-right-image img {
+  width: 100%;
+  height: auto;
+}
+.lv-become-member-left-content p {
+  width: 84%;
+  margin-top: 35px;
+  margin-bottom: 55px;
+}
+.similar-btn.check-out a {
+  padding: 20px 45px 14px 45px;
+}
+
+/*===== End LV Become Member Area Css  =====*/
+
+/*===== Start LV Book Tables Area Css  =====*/
+.lv-book-tables-area {
+  background: url('../images/book-table.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.lv-similar-table-text h2, .lv-similar-table-text p {
+  color: #FFFFFF;
+  text-align: right;
+  max-width: 500px;
+}
+.lv-similar-table-text p {
+  margin-top: 30px;
+}
+/*===== End LV Book Tables Area Css  =====*/
+
+/*===== Start LV Scenery Area Css  =====*/
+.lv-scenery-area {
+  background-color: #FFFFFF;
+}
+
+.lv-scenery-area  .lv-become-member-left-content p {
+  margin: 0;
+  margin-top: 30px;
+}
+
+.lv-scenery-area  .lv-become-member-right-image {
+  text-align: right;
+  margin-right: 20px;
+}
+
+.lv-scenery-area .lv-become-member-right-image img {
+  width: 90%;
+}
+
+/*===== End LV Scenery Area Css  =====*/
+
+/*===== Start LV Play Game Area Css  =====*/
+.lv-play-game-area {
+  background: url('../images/book-table.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*===== End LV Play Game Area Css  =====*/
+
+/*===== Start LV Footer Area Css  =====*/
+.lv-footer-area {
+  background-color: #000A20;
+  padding: 100px 0;
+}
+
+.single-lv-footer-link {
+  margin-top: 40px;
+}
+
+.single-lv-footer-link.pl {
+  padding-left: 35px;
+}
+
+.single-lv-footer-link ul li a {
+  margin-left: 0;
+  padding: 0;
+  margin-bottom: 15px;
+}
+
+.lv-footer-copyright-contact,.lv-footer-email-social {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.lv-footer-copyright-contact {
+  margin-top: 60px;
+}
+.lv-footer-email-social ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.lv-footer-copyright-text {
+  flex: 0 0 55%;
+}
+.lv-footer-email-social {
+  flex: 0 0 45%;
+}
+
+.lv-footer-copyright-text p,.lv-footer-email-social a {
+  font-weight: 300;
+  font-size: 18px;
+  color: #FFFFFF;
+}
+.lv-footer-email-social a {
+  font-size: 20px;
+}
+
+.lv-footer-email-social ul li a img {
+  width: 35px;
+  height: auto;
+  margin-left: 15px;
+}
+
+.lv-footer-email-social ul li a:hover img {
+  opacity: .8;
+}
+
+
+/*===== Start LV Footer Area Css  =====*/

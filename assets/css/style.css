@@ -81,7 +81,7 @@ p {
   line-height: 1.28;
 }
 
-.similar-btn a {
+.similar-btn a,.lv-register-submit-btn input {
   background-color: #7FB3D5;
   font-family: 'Winsel Condensed';
   font-weight: 900;
@@ -93,9 +93,10 @@ p {
   line-height: 1;
   box-shadow: 0px 4px 9px #00000029;
   transition: .2s;
+  border: none;
 }
 
-.similar-btn a:hover {
+.similar-btn a:hover,.lv-register-submit-btn input:hover {
   background-color: #2275ab;
 }
 
@@ -383,10 +384,87 @@ p {
   padding-left: 38px;
 }
 
-
-
-
 /*==========>>>>> End FAQ Page Css  <<<<<==========*/
+
+/*==========>>>>> Start Register Page Css  <<<<<==========*/
+
+.lv-register-content {
+  padding-top: 80px;
+}
+
+.lv-register-input-fields {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.lv-register-input-left-fields {
+  flex: 0 0 50%;
+  padding-right: 70px;
+}
+
+.lv-register-input-right-fields {
+ flex: 0 0 50%;
+ padding-left:  70px;
+}
+
+.single-lv-register-field {
+  margin-bottom: 50px;
+}
+.lv-register-input-left-fields .single-lv-register-field:last-child,.lv-register-input-right-fields .single-lv-register-field:last-child{
+  margin-bottom: 0;
+}
+.single-lv-register-field label {
+  font-weight: 300;
+  font-size: 24px;
+  color: #FFFFFF;
+  text-transform: capitalize;
+  display: block;
+  line-height: normal;
+  margin-bottom: 15px;
+}
+
+.single-lv-register-field input,.single-lv-register-field select {
+  font-weight: 300;
+  font-size: 24px;
+  color: #000000;
+  text-transform: capitalize;
+  display: block;
+  line-height: normal;
+  width: 100%;
+  padding: 13px 20px;
+}
+
+.single-lv-register-field select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  text-indent: 1px;
+  text-overflow: '';
+  cursor: pointer;
+}
+
+.lv-register-submit-btn {
+  text-align: center;
+  margin-top: 110px;
+}
+
+.single-lv-register-select {
+  position: relative
+}
+.single-lv-register-select i {
+  position: absolute;
+  right: 20px;
+  top: 0;
+  font-size: 30px;
+  line-height: 50px;
+  pointer-events: none;
+}
+
+
+
+
+/*==========>>>>> End Register Page Css  <<<<<==========*/
+
 
 /*===== Start LV Footer Area Css  =====*/
 .lv-footer-area {

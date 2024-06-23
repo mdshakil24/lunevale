@@ -4,7 +4,7 @@ body {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   font-family: 'Winsel Condensed';
-  font-family: 'Lato';
+  font-family: "Lato", sans-serif;
 }
 
 html {

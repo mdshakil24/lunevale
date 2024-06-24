@@ -1,17 +1,5 @@
 @media all and (max-width: 1399px) {
-    h1 {
-        font-size: 52px;
-    }
-    h2 {
-        font-size: 42px;
-    }
-    h3,.single-lv-faq-items h3,.single-lv-memberships-heading h3 {
-        font-size: 32px;
-    }
 
-    p {
-        font-size: 21px;
-    }
 
     .single-lv-memberships-text p, .single-lv-memberships-text h5, .single-lv-memberships-text h6 {
         font-size: 19px;
@@ -24,10 +12,6 @@
 
     .similar-btn a, .lv-register-submit-btn input {
         font-size: 27px;
-    }
-
-    .lv-header-logo img, .lv-footer-logo img {
-        width: 200px;
     }
 
     .lv-hero-right-content h2 {
@@ -57,13 +41,9 @@
         font-size: 34px;
     }
 
-    p {
-        font-size: 20px;
-    }
 
-    .similar-btn a, .lv-register-submit-btn input {
-        font-size: 27px;
-    }
+
+
 
     .lv-header-logo img,
     .lv-footer-logo img {
@@ -78,10 +58,7 @@
         padding-right: 30px;
     }
 
-    .single-lv-register-field label,
-    .single-lv-register-field select {
-        font-size: 22px;
-    }
+
 
     .lv-hero-left-content p {
         margin-top: 40px;
@@ -314,25 +291,21 @@
         font-size: 35px;
     }
 
-    h3,
-    .single-lv-memberships-heading h3 {
+    h3{
         font-size: 30px;
     }
 
-    p {
-        font-size: 20px;
-    }
 
     .single-lv-memberships-text p,
     .single-lv-memberships-text h5,
-    .single-lv-memberships-text h6 {
+    .single-lv-memberships-text h6, p {
         font-size: 18px;
     }
 
     .similar-btn a,
     .lv-register-submit-btn input {
-        font-size: 24px;
-        padding: 20px 60px 14px 60px;
+        font-size: 22px;
+        padding: 20px 50px 14px 50px;
     }
 
     .lv-footer-top-content {
@@ -357,10 +330,7 @@
         margin-top: 6px;
     }
 
-    .single-lv-register-field label,
-    .single-lv-register-field select {
-        font-size: 20px;
-    }
+
 
 
 }
